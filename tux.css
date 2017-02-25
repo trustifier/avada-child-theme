@@ -1,0 +1,16 @@
+/*
+ * tux related css
+ */
+
+.tux-result { }
+.tux-request-text { font-weight: bold !important; color: #4C4C4C !important; text-decoration: underline !important; }
+.tux-timestamp    { color: rgb(47, 189, 239) !important; }
+.tux-timespec-humanize { color: green !important; }
+.tux-response { color: #303030 !important; }
+
+.tux-user-id { color: rgb(30, 94, 128) !important; font-weight: bold !important; }
+.tux-network-node { color: rgb(164, 19, 104) !important; }
+.tux-software-os { font-weight: bold !important; color: #333 !important; }
+.tux-number { color: #A31366 !important; }
+.tux-nlp-corpus-name { color: red !important; font-weight: bold !important; font-style: italic !important;  }
+ 

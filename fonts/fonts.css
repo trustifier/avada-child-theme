@@ -1,0 +1,77 @@
+@import url('roboto.css');
+
+@font-face
+{
+	font-family: 'Blade';
+	src: url('blade.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'TrustifierLogo';
+	src: url('arkitech.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'TrustifierProduct';
+	src: url('timeburner.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'arkitech';
+	src: url('arkitech.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'Kirvy';
+	src: 	url('Kirvy-Regular.woff2') format('woff2'),
+		url('Kirvy-Regular.ttf') format('ttf'),
+		url('Kirvy-Regular.otf') format('otf')
+		;
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face
+{
+	font-family: 'Kirvy';
+	src: 	url('Kirvy-Light.woff2') format('woff2'),
+		url('Kirvy-Light.ttf') format('ttf'),
+		url('Kirvy-Light.otf') format('otf')
+		;
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face
+{
+	font-family: 'Kirvy';
+	src: 	url('Kirvy-Thin.woff2') format('woff2'),
+		url('Kirvy-Thin.ttf') format('ttf'),
+		url('Kirvy-Thin.otf') format('otf')
+		;
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'Kirvy';
+	src: 	url('Kirvy-Bold.woff2') format('woff2')
+		url('Kirvy-Bold.ttf') format('ttf')
+		url('Kirvy-Bol.otf') format('otf')
+		;
+	font-style: normal;
+	font-weight: bold;
+}

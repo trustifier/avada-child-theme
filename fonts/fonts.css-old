@@ -1,0 +1,13 @@
+@font-face
+{
+	font-family: TrustifierLogo;
+	src: url(arkitech.woff);
+	font-weight: normal;
+}
+
+@font-face
+{
+	font-family: TrustifierProduct;
+	src: url(timeburner.woff);
+	font-weight: normal;
+}
