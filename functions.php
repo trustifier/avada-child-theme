@@ -1,5 +1,7 @@
 <?php
 
+require_once('remove-yoast-seo-nag.php');
+
 function theme_enqueue_styles() {
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'avada-stylesheet' ) );
 }
