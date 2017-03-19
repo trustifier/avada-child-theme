@@ -1,6 +1,6 @@
 /*
-Theme Name: Avada Child
-Description: Child theme for Avada theme
+Theme Name: Trustifier Theme (Avada Child Theme)
+Description: Trustifier modifications for Avada theme
 Author: ThemeFusion
 Author URI: https://theme-fusion.com
 Template: Avada
@@ -14,57 +14,6 @@ Text Domain:  Avada
 
 
 
-/*fixes*/
-
-
-.fusion-body .fusion-button-medium .button-icon-divider-left i, .button-medium .button-icon-divider-left i, .button.medium .button-icon-divider-left i, .woocommerce .checkout #place_order .button-icon-divider-left i, .ticket-selector-submit-btn[type=submit] .button-icon-divider-left i, .fusion-body .fusion-button-medium .button-icon-divider-right i, .button-medium .button-icon-divider-right i, .button.medium .button-icon-divider-right i, .woocommerce .checkout #place_order .button-icon-divider-right i, .ticket-selector-submit-btn[type=submit] .button-icon-divider-right i, .fusion-body .fusion-button-medium .button-icon-divider-left img, .button-medium .button-icon-divider-left img, .button.medium .button-icon-divider-left img, .woocommerce .checkout #place_order .button-icon-divider-left img, .ticket-selector-submit-btn[type=submit] .button-icon-divider-left img, .fusion-body .fusion-button-medium .button-icon-divider-right img, .button-medium .button-icon-divider-right img, .button.medium .button-icon-divider-right img, .woocommerce .checkout #place_order .button-icon-divider-right img, .ticket-selector-submit-btn[type=submit] .button-icon-divider-right img {
-	margin-top: -12.5px;
-}
-
-#wrapper .fusion-header .fusion-logo {
-	max-width: 200px;
-}
-
-#wrapper .fusion-header #logo, span.logo {
-  font-family: TrustifierLogo;
-  text-transform: lowercase!important;
-}
-
-.fusion-header {
-  padding: 0px;
-}
-
-.ubermenu-target#logo {
-  background: inherit;
-}
-
-.ubermenu-target#logo:hover {
-  color:white;
-}
-
-.sidebar .widget .ubermenu li a {
-   display: block;
-}
-
-.sidebar .widget .ubermenu li a,
-.sidebar .widget .ubermenu li a:focus,
-.sidebar .widget .ubermenu li,
-.sidebar .widget .ubermenu li:focus
-{
-   outline: none;
-}
-
-.sidebar .widget .ubermenu::before {
-   border-right: none;
-}
-
-.sidebar .widget .ubermenu .show-on-scroll {
-  display: none ;
-}
-
-.sidebar .q2w3-widget-clone + .widget .ubermenu .show-on-scroll {
-     display: block;
-}
 /* general ease CSS */
 
 .white { color: white; }
@@ -82,42 +31,5 @@ Text Domain:  Avada
     margin-right: 6px;
 }
 
-
-#products {
-	.fusion-flip-box .flip-box-front, .fusion-flip-box .flip-box-back {
-    	min-height: 220px !important;
- 		height: 220px !important;
-		h2 { 
-			font-weight: bold;
-		}
-		h3 {
-			font-weight: bold;
-		}
-	}
-}
-
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-        font-size: 1.3em !important;
-}
-
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-
-
+@import 'typed-cursor.less';
+@import 'theme-fixes.less';
