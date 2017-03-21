@@ -1,0 +1,42 @@
+.single-post #content {
+  max-width: 1100px;
+  float: none;
+  margin: 0 auto;
+}
+.single-post #main .fullbox-width .fusion-row {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.single-post #main h1,
+.single-post #main h2,
+.single-post #main h3,
+.single-post #main h4,
+.single-post #main h5,
+.single-post #main h6,
+.single-post #main .fusion-post-title,
+.single-post #main .fusion-title,
+.single-post #main .post-content p,
+.single-post #main .post-content blockquote {
+  line-height: 1.8em;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.single-post #main .post-content p,
+.single-post #main .post-content blockquote {
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+.single-post #main .fusion-title,
+.single-post #main .fusion-title.sep-underline {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.single-post #main .fusion-title h1.title-heading-left,
+.single-post #main .fusion-title.sep-underline h1.title-heading-left {
+  border-left: 6px solid blue;
+  padding-left: 0.3em;
+  padding-bottom: 6px;
+}
+.single-post #main h4.fusion-carousel-title {
+  font-size: 14px;
+}
