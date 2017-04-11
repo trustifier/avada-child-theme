@@ -15,6 +15,27 @@ jQuery(document).ready(function($) {
 });
 
 
+
+function dayTh(day) {
+	var th = "th";
+	switch(day.toString().charAt(day.toString().length-1)) {
+	case "1":
+		th = "st";
+		break;
+	case "2":
+		th = "nd";
+		break;
+	case "3":
+		th = "rd";
+		break;
+	default:
+		th = "th";
+		break;
+	}
+	return day.toString() + "<sup>" + th + "</sup>"
+
+}
+
 // Business Date Management
 //
 
